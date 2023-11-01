@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+.rick-experience {
+    width: 200px;
+}
+
+.avatar {
+    width: 400px;
+    height: 400px;
+}
+
+#main-photo {
+    width: 800px;
+    height: 400px;
+}
+
+h1 {
+    background-color: blue;
+    bottom: 60px;
+}
+
+nav {
+    display:flex;
+    gap: 16px;
+}
+
+a {
+    all:unset;
+    padding: 8px 16px;
+    border-radius: 6px;
+}
+
+.experience h1 {
+    font-size: 12px;
+}
+
+.skill {
+    font-size: 8px;
+}
+
+.skill h1 {
+    font-size: 80px;
+}
+
+/* img {
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+} */
+
+/* .outer {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: fixed;
+    top: 20px;
+} */
+
+/* FLEX TRAINING SECTION */
+.container {
+    display: flex;
+    flex-direction:row-reverse;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    flex-grow: 1;
+}
+
+#red {
+    background-color: rgb(204, 75, 75);
+}
+
+#blue {
+    background-color: rgb(64, 24, 243);
+}
+
+#yellow {
+    background-color: rgb(171, 215, 13);
+}
